@@ -15,7 +15,7 @@ function Blue(theme) {
     if (currentTheme === "blue") {
         resetTheme();
     } else {
-        document.body.style.backgroundImage="url(/img/boyish_background.webp)";
+        document.body.style.backgroundImage="url(img/boyish_background.webp)";
         document.body.style.color = "#26619C";
         document.body.style.textTransform = "none";
         document.getElementById("subtext").textContent="Boy(Male)";
@@ -29,7 +29,7 @@ function Pink(theme) {
     if (currentTheme === "pink") {
         resetTheme();
     } else {
-        document.body.style.backgroundImage="url(/img/girly_background.jpg)";
+        document.body.style.backgroundImage="url(img/girly_background.jpg)";
         document.getElementById("subtext").textContent="Girl(Female)";
         document.body.style.color = "#E41F7B";
         document.body.style.textTransform = "none";
@@ -43,7 +43,7 @@ function Brown(theme) {
     if (currentTheme === "brown") {
         resetTheme();
     } else {
-        document.body.style.backgroundImage="url(/img/old_background.jpg)";
+        document.body.style.backgroundImage="url(img/old_background.jpg)";
         document.getElementById("subtext").textContent="Ancient";
         document.body.style.color = "#80461B";
         document.body.style.fontFamily = "'Times New Roman', Times, serif";
@@ -55,7 +55,7 @@ function Brown(theme) {
 
 
 function resetTheme() {
-    document.body.style.backgroundImage="url(/img/white.jpg)";
+    document.body.style.backgroundImage="url(img/white.jpg)";
     document.body.style.color = "black";
     document.getElementById("subtext").textContent="Welcome";
     document.body.style.fontFamily = "'Times New Roman', Times, serif";
